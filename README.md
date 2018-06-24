@@ -29,6 +29,7 @@ class ExampleForm(forms.Form):
 
 If you were using ModelForm then you could just do:
 
+~~~python
 class ModelName(forms.ModelForm):
     class Meta:
         # Other attributes here.
